@@ -1,0 +1,1 @@
+# amplify-image-optimizer
