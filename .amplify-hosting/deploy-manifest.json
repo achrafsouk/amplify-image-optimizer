@@ -3,6 +3,13 @@
   "framework": { "name": "amplify-image-opt-backend", "version": "1.0.0" },
   "routes": [
     {
+      "path": "/just_to_make_amplify_build",
+      "target": {
+        "kind": "Static",
+        "cacheControl": "no-store"
+      }
+    },
+    {
       "path": "/*",
       "target": {
         "kind": "ImageOptimization",
