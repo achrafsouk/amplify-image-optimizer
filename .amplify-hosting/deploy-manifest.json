@@ -8,7 +8,7 @@
         "kind": "ImageOptimization",
         "cacheControl": "max-age=1"
       }
-    },
+    }
   ],
   "imageSettings": {
     "sizes": [
