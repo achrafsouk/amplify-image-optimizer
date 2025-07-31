@@ -16,8 +16,8 @@
         "cacheControl": "max-age=1"
       },
       "fallback": {
-        "kind": "Static",
-        "cacheControl": "no-store"
+        "kind": "Compute",
+        "src": "default"
       }
     }
   ],
