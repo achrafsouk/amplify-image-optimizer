@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "framework": { "name": "amplify-image-opt-backend", "version": "1.0.0" },
+  "routes": [
+    {
+      "path": "/*",
+      "target": {
+        "kind": "ImageOptimization",
+        "cacheControl": "max-age=1"
+      }
+    },
+  ],
+  "imageSettings": {
+    "sizes": [
+      200, 400, 800
+    ],
+    "domains": [
+      "main.d3o1gd76ew0q9c.amplifyapp.com"
+    ],
+    "remotePatterns": [
+    ],
+    "formats": [
+      "image/webp", "image/avif", "image/jpeg"
+    ],
+    "minimumCacheTTL": 60,
+    "dangerouslyAllowSVG": false
+  }
+}
