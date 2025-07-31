@@ -20,7 +20,7 @@
   "computeResources": [
     {
       "name": "default",
-      "runtime": "nodejs18.x",
+      "runtime": "nodejs20.x",
       "entrypoint": "just_to_make_amplify_build"
     }
   ],
