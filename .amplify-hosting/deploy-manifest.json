@@ -17,6 +17,13 @@
       }
     }
   ],
+  "computeResources": [
+    {
+      "name": "default",
+      "runtime": "nodejs18.x",
+      "entrypoint": "just_to_make_amplify_build"
+    }
+  ],
   "imageSettings": {
     "sizes": [
       200, 400, 800
