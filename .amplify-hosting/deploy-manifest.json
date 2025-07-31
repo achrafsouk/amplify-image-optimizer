@@ -5,8 +5,8 @@
     {
       "path": "/just_to_make_amplify_build",
       "target": {
-        "kind": "Static",
-        "cacheControl": "no-store"
+        "kind": "Compute",
+        "src": "default"
       }
     },
     {
@@ -14,10 +14,6 @@
       "target": {
         "kind": "ImageOptimization",
         "cacheControl": "max-age=1"
-      },
-      "fallback": {
-        "kind": "Compute",
-        "src": "default"
       }
     }
   ],
