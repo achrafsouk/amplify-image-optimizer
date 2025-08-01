@@ -29,7 +29,7 @@
       200, 400, 800
     ],
     "domains": [
-      "d2wze553tt9i39.cloudfront.net"
+      "YOUR_DISTRIBUTION.cloudfront.net"
     ],
     "remotePatterns": [
     ],
