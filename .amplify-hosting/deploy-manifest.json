@@ -13,7 +13,7 @@
       "path": "/*",
       "target": {
         "kind": "ImageOptimization",
-        "cacheControl": "max-age=1"
+        "cacheControl": "max-age=3600"
       }
     }
   ],
